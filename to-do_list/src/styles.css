@@ -1,0 +1,38 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  background-color: #333;
+  padding: 1rem;
+}
+
+.item-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.item-form input {
+  height: 2rem;
+  border-radius: 8px;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.form-row label {
+  font-size: 24px;
+}
+
+.btn-add {
+  flex-direction: column;
+  height: 2.5rem;
+  justify-content: center;
+  font-size: 1rem;
+  display: flex;
+}
